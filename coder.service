@@ -1,9 +1,9 @@
 [Unit]
-Description=coder-cloud-redirect
+Description=Amatak-Code-Server
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /usr/bin/coder-cloud-redirect.py 80
+ExecStart=/usr/bin/python3 /usr/bin/coder.py 80
 Restart=always
 
 [Install]
